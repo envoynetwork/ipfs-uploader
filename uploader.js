@@ -19,8 +19,8 @@ app.use(cors({
 app.use(fileUpload());
 
 
-const projectId = '7f75cdf1272147e1825e86ea91debde6'
-const projectSecret = '6bb9af39f23b4a508730c7aa7fc3fa75'
+const projectId = '1vgQQehvM3UrKUdfGGDMfd4vYFi'
+const projectSecret = 'be2d64142050273a6cdcaf2a44dce81b'
 const auth = 'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64')
 
 const ipfsClient = create({
